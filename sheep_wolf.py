@@ -52,7 +52,7 @@ start_rect = start_text.get_rect(center=(screen_width // 2, screen_height // 1.5
 # ゲームオーバー画面の設定
 game_over_font = pygame.font.SysFont(None, 100)
 retry_font = pygame.font.SysFont(None, 60)
-game_over_text = game_over_font.render("Game Over", True, black)
+game_over_text = game_over_font.render("Game Over", True, red)
 retry_text = retry_font.render("Press 'R' to retry", True, black)
 end_text = retry_font.render("Press 'Q' to quit", True, black)
 game_over_rect = game_over_text.get_rect(center=(screen_width // 2, screen_height // 3))
