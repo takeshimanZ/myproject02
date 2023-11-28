@@ -80,7 +80,7 @@ score = 0
 
 # タイマーの設定
 game_start_time = pygame.time.get_ticks()
-game_duration = 10000
+game_duration = 30000
 
 def draw_text(text, font, color, x, y):
     text_surface = font.render(text, True, color)
